@@ -130,19 +130,38 @@ bool ImageProcessor::runTests() {
 // GPU implementations (call CUDA kernels)
 bool ImageProcessor::applyBlurGPU(const cv::Mat& input, cv::Mat& output, int radius) {
     logMessage("Applying GPU blur (radius: " + std::to_string(radius) + ")");
-    return launchBlurKernel(input, output, radius);
+    
+    // Try CUDA kernel first
+    if (launchBlurKernel(input, output, radius)) {
+        return true;
+    }
+    
+    // If CUDA kernel fails, fallback to CPU
+    logMessage("GPU kernel failed, falling back to CPU");
+    return applyBlurCPU(input, output, radius);
 }
 
 bool ImageProcessor::applySharpenGPU(const cv::Mat& input, cv::Mat& output, float strength) {
     logMessage("Applying GPU sharpen (strength: " + std::to_string(strength) + ")");
-    return launchSharpenKernel(input, output, strength);
+    
+    if (launchSharpenKernel(input, output, strength)) {
+        return true;
+    }
+    
+    logMessage("GPU kernel failed, falling back to CPU");
+    return applySharpenCPU(input, output, strength);
 }
 
 bool ImageProcessor::applyEdgeGPU(const cv::Mat& input, cv::Mat& output) {
     logMessage("Applying GPU edge detection");
-    return launchEdgeKernel(input, output);
+    
+    if (launchEdgeKernel(input, output)) {
+        return true;
+    }
+    
+    logMessage("GPU kernel failed, falling back to CPU");
+    return applyEdgeCPU(input, output);
 }
-
 // CPU fallback implementations
 bool ImageProcessor::applyBlurCPU(const cv::Mat& input, cv::Mat& output, int radius) {
     try {
