@@ -1,0 +1,1 @@
+-I"/home/ahmed/ImageFilterGPU-Okab/src" -I"/home/ahmed/ImageFilterGPU-Okab/include" -isystem /usr/include/opencv4
