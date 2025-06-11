@@ -8,6 +8,8 @@
 bool launchBlurKernel(const cv::Mat& input, cv::Mat& output, int radius);
 bool launchSharpenKernel(const cv::Mat& input, cv::Mat& output, float strength);
 bool launchEdgeKernel(const cv::Mat& input, cv::Mat& output);
+bool launchGrayscaleKernel(const cv::Mat& input, cv::Mat& output);
+
 
 // Utility functions
 void checkCudaError(const char* operation);

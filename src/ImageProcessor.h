@@ -6,7 +6,7 @@
 
 class ImageProcessor {
 public:
-    ImageProcessor();
+    ImageProcessor(bool forceCPU = false);
     ~ImageProcessor();
     
     // Main processing function
@@ -22,6 +22,7 @@ public:
     
 private:
     bool cudaAvailable_;
+    bool forceCPU_;
     
     // Initialization
     bool initCuda();
@@ -31,10 +32,14 @@ private:
     bool applySharpenGPU(const cv::Mat& input, cv::Mat& output, float strength);
     bool applyEdgeGPU(const cv::Mat& input, cv::Mat& output);
     
-    // CPU fallback implementations
+    //cpu version
     bool applyBlurCPU(const cv::Mat& input, cv::Mat& output, int radius);
     bool applySharpenCPU(const cv::Mat& input, cv::Mat& output, float strength);
     bool applyEdgeCPU(const cv::Mat& input, cv::Mat& output);
+
+
+    bool applyGrayscaleGPU(const cv::Mat& input, cv::Mat& output);
+    bool applyGrayscaleCPU(const cv::Mat& input, cv::Mat& output);
     
     // Helper functions
     void logMessage(const std::string& message) const;
