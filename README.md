@@ -92,6 +92,8 @@ In this project, I implemented a full image processing pipeline using CUDA and O
 # Grayscale Conversion
 ./ImageFilterGPU-Okab data/input/test.png data/output/grayscale.png grayscale
 
+```
+
 -Default radiuses used when not provided
 
 ## 📚 Key Takeaways & Learnings
@@ -119,7 +121,7 @@ In this project, I implemented a full image processing pipeline using CUDA and O
 
 ## 🛠 Future Optimizations that I have researched could be possible
 
-- Shared memory (tiling) for blur, sharpen, edge detection. Through some research, I have foudn out that tiling allows us to minimize the external memory accesses to the GPU during fragment shading. This improves performance drastically.
+- Shared memory (tiling) for blur, sharpen, edge detection. Through some research, I have found out that tiling allows us to minimize the external memory accesses to the GPU during fragment shading. This improves performance drastically.
 - Global memory coalescing.
 - Kernel fusion (in order to reduce redundant global reads).
 
