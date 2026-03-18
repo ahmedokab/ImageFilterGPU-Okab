@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ahmed/ImageFilterGPU-Okab/src/CudaKernels.cu" "CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o" "gcc" "CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o.d"
-  "/home/ahmed/ImageFilterGPU-Okab/src/ImageProcessor.cpp" "CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o" "gcc" "CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o.d"
-  "/home/ahmed/ImageFilterGPU-Okab/src/main.cpp" "CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o" "gcc" "CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o.d"
+  "/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/CudaKernels.cu" "CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o" "gcc" "CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o.d"
+  "/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/ImageProcessor.cpp" "CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o" "gcc" "CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o.d"
+  "/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/main.cpp" "CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o" "gcc" "CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

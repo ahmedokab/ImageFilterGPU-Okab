@@ -11,7 +11,7 @@ CUDA_FLAGS =  -O3 -std=c++14 "--generate-code=arch=compute_70,code=[compute_70,s
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ahmed/ImageFilterGPU-Okab/src -I/home/ahmed/ImageFilterGPU-Okab/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src -I/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/include -isystem /usr/include/opencv4
 
 CXX_FLAGS =  -O3 -Wall -std=gnu++14
 

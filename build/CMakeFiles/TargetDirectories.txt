@@ -1,3 +1,3 @@
-/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles/ImageFilterGPU-Okab.dir
-/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles/edit_cache.dir
-/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles/ImageFilterGPU-Okab.dir
+/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles/rebuild_cache.dir

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ahmed/ImageFilterGPU-Okab
+CMAKE_SOURCE_DIR = /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahmed/ImageFilterGPU-Okab/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ImageFilterGPU-Okab.dir/depend.make
@@ -70,39 +70,39 @@ include CMakeFiles/ImageFilterGPU-Okab.dir/progress.make
 include CMakeFiles/ImageFilterGPU-Okab.dir/flags.make
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o: CMakeFiles/ImageFilterGPU-Okab.dir/flags.make
-CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o: /home/ahmed/ImageFilterGPU-Okab/src/main.cpp
+CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o: /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/main.cpp
 CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o: CMakeFiles/ImageFilterGPU-Okab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o -MF CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o.d -o CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o -c /home/ahmed/ImageFilterGPU-Okab/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o -MF CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o.d -o CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.o -c /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/main.cpp
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/ImageFilterGPU-Okab/src/main.cpp > CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/main.cpp > CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.i
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/ImageFilterGPU-Okab/src/main.cpp -o CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/main.cpp -o CMakeFiles/ImageFilterGPU-Okab.dir/src/main.cpp.s
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o: CMakeFiles/ImageFilterGPU-Okab.dir/flags.make
-CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o: /home/ahmed/ImageFilterGPU-Okab/src/ImageProcessor.cpp
+CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o: /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/ImageProcessor.cpp
 CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o: CMakeFiles/ImageFilterGPU-Okab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o -MF CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o.d -o CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o -c /home/ahmed/ImageFilterGPU-Okab/src/ImageProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o -MF CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o.d -o CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.o -c /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/ImageProcessor.cpp
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/ImageFilterGPU-Okab/src/ImageProcessor.cpp > CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/ImageProcessor.cpp > CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.i
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/ImageFilterGPU-Okab/src/ImageProcessor.cpp -o CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/ImageProcessor.cpp -o CMakeFiles/ImageFilterGPU-Okab.dir/src/ImageProcessor.cpp.s
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o: CMakeFiles/ImageFilterGPU-Okab.dir/flags.make
 CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o: CMakeFiles/ImageFilterGPU-Okab.dir/includes_CUDA.rsp
-CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o: /home/ahmed/ImageFilterGPU-Okab/src/CudaKernels.cu
+CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o: /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/CudaKernels.cu
 CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o: CMakeFiles/ImageFilterGPU-Okab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CUDA object CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o"
-	/usr/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o -MF CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o.d -x cu -rdc=true -c /home/ahmed/ImageFilterGPU-Okab/src/CudaKernels.cu -o CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CUDA object CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o"
+	/usr/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o -MF CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o.d -x cu -rdc=true -c /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/src/CudaKernels.cu -o CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.o
 
 CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CUDA source to CMakeFiles/ImageFilterGPU-Okab.dir/src/CudaKernels.cu.i"
@@ -185,7 +185,7 @@ CMakeFiles/ImageFilterGPU-Okab.dir/cmake_device_link.o: /usr/lib/x86_64-linux-gn
 CMakeFiles/ImageFilterGPU-Okab.dir/cmake_device_link.o: CMakeFiles/ImageFilterGPU-Okab.dir/deviceLinkLibs.rsp
 CMakeFiles/ImageFilterGPU-Okab.dir/cmake_device_link.o: CMakeFiles/ImageFilterGPU-Okab.dir/deviceObjects1.rsp
 CMakeFiles/ImageFilterGPU-Okab.dir/cmake_device_link.o: CMakeFiles/ImageFilterGPU-Okab.dir/dlink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CUDA device code CMakeFiles/ImageFilterGPU-Okab.dir/cmake_device_link.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CUDA device code CMakeFiles/ImageFilterGPU-Okab.dir/cmake_device_link.o"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageFilterGPU-Okab.dir/dlink.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -264,7 +264,7 @@ ImageFilterGPU-Okab: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 ImageFilterGPU-Okab: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 ImageFilterGPU-Okab: CMakeFiles/ImageFilterGPU-Okab.dir/cmake_device_link.o
 ImageFilterGPU-Okab: CMakeFiles/ImageFilterGPU-Okab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ImageFilterGPU-Okab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ImageFilterGPU-Okab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageFilterGPU-Okab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -276,6 +276,6 @@ CMakeFiles/ImageFilterGPU-Okab.dir/clean:
 .PHONY : CMakeFiles/ImageFilterGPU-Okab.dir/clean
 
 CMakeFiles/ImageFilterGPU-Okab.dir/depend:
-	cd /home/ahmed/ImageFilterGPU-Okab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahmed/ImageFilterGPU-Okab /home/ahmed/ImageFilterGPU-Okab /home/ahmed/ImageFilterGPU-Okab/build /home/ahmed/ImageFilterGPU-Okab/build /home/ahmed/ImageFilterGPU-Okab/build/CMakeFiles/ImageFilterGPU-Okab.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build /mnt/c/Users/Ahmed/Documents/uiucfiles/softwareprojects/ImageFilterGPU-Okab/build/CMakeFiles/ImageFilterGPU-Okab.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ImageFilterGPU-Okab.dir/depend
 
